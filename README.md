@@ -1,4 +1,4 @@
-# unagi_game ROS 2 workspace
+# unagi_game
 
 アークスブログで紹介したうなぎゲームです。ROS2で実装されており、C++とPythonが使われています。
 
