@@ -1,0 +1,22 @@
+builtin_interfaces/Time stamp
+bool active
+bool paused
+bool finished
+bool success
+string reason
+float32 elapsed_sec
+int32 score
+uint32 round_index
+int64 layout_seed
+float32 world_length
+float32 arena_half_height
+# Player-specific state uses the unagi_* prefix throughout this package.
+float32 unagi_x
+float32 unagi_y
+float32 unagi_theta
+float32 unagi_vx
+float32 unagi_vy
+float32 unagi_omega
+float32 flap_x
+float32 flap_y
+unagi_game/Obstacle[] obstacles

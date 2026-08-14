@@ -1,0 +1,33 @@
+unagi_game_physics:
+  ros__parameters:
+    physics_hz: 60.0
+    default_time_limit_sec: 45.0
+    auto_start: true
+    world_length: 55.0
+    arena_half_height: 4.0
+    unagi_radius: 0.24
+
+    # Roguelike-style procedural obstacle generation.
+    obstacle_count: 18
+    randomize_obstacles_each_round: true
+    # -1 = new nondeterministic layouts. Set e.g. 1234 for a reproducible
+    # sequence (each round still differs, but restarting repeats the sequence).
+    obstacle_seed: -1
+    obstacle_radius_min: 0.45
+    obstacle_radius_max: 0.85
+    obstacle_x_jitter: 0.30
+    obstacle_path_margin: 0.55
+    path_max_shift: 0.85
+
+    thrust: 8.0
+    steering_torque: 4.5
+
+unagi_game_renderer:
+  ros__parameters:
+    width: 960
+    height: 540
+    meters_visible_x: 15.0
+
+unagi_game_viewer:
+  ros__parameters:
+    steer_hold_sec: 0.16

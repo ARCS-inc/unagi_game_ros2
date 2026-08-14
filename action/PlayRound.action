@@ -1,0 +1,13 @@
+# Goal: start a new round. <= 0 uses the configured default time limit.
+float32 time_limit_sec
+---
+# Result
+bool success
+int32 score
+float32 distance
+string reason
+---
+# Feedback
+float32 elapsed_sec
+float32 distance
+int32 score
