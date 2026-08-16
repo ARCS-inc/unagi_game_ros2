@@ -4,7 +4,7 @@
 
 ## ゲームプレイ
 
-<img width="1920" height="1200" alt="icsi_sim-2026-08-13_17 24 14" src="https://github.com/user-attachments/assets/fb77f17a-5f59-48c3-b718-ede15156a900" />
+<img alt="icsi_sim-2026-08-13_17 24 14" src="https://github.com/user-attachments/assets/fb77f17a-5f59-48c3-b718-ede15156a900" />
 
 
 起動
