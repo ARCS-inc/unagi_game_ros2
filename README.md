@@ -15,4 +15,6 @@ ros2 launch unagi_game game.launch.py
 
 ## ライセンス
 
-商用利用不可でお願いします。
+商用利用不可となっておりますのでご了承ください。 
+https://github.com/ARCS-inc/unagi_game_ros2?tab=License-1-ov-file
+
